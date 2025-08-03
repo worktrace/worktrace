@@ -1,6 +1,7 @@
 /// @docImport 'dart:async';
 library;
 
+import 'package:analyzer/dart/element/element2.dart';
 import 'package:build/build.dart';
 import 'package:meta/meta.dart';
 import 'package:source_gen/source_gen.dart';
@@ -50,6 +51,33 @@ abstract class ComposedGenerator extends DirectGenerator {
     LibraryReader library,
     BuildStep buildStep,
   );
+}
+
+abstract class RecursiveGenerator extends ComposedGenerator {
+  const RecursiveGenerator();
+
+  /// Define how to generate a single element in the AST.
+  ///
+  /// All elements in the AST will be visited, which might cost a lot,
+  /// so it's supposed to return `null` when necessary as soon as possible
+  /// to tell the recursive visitor to skip redundant steps.
+  String? generateElement(Element2 element);
+
+  /// Visit all elements recursively and generate when necessary.
+  @override
+  Iterable<String> generateComponents(
+    LibraryReader library,
+    BuildStep buildStep,
+  ) => _generateComponents(library.element);
+
+  /// Recursive encapsulation of generating a single layer of element in AST.
+  Iterable<String> _generateComponents(Element2 element) sync* {
+    for (final Element2 element in element.children2) {
+      final String? result = generateElement(element);
+      if (result != null) yield result;
+      yield* _generateComponents(element);
+    }
+  }
 }
 
 /// A generator that avoid any future operations.
