@@ -1,0 +1,16 @@
+{
+  // General normalizations.
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 100],
+
+  // Auto format on save (requires recommended extensions).
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": { "source.organizeImports": "always" },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[shellscript]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+  "[properties]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+  "[ignore]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" }
+}

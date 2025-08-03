@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    // Languages and frameworks.
+    "dart-code.dart-code",
+    "dart-code.flutter",
+
+    // Configurations.
+    "redhat.vscode-yaml",
+
+    // Code qualities.
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format"
+  ]
+}
