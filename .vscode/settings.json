@@ -33,6 +33,8 @@
     "ints",
     "nonobvious",
     "pubspec",
+    "swiftpm",
+    "Symbolication",
     "tearoffs",
     "unawaited",
     "worktrace"
