@@ -16,11 +16,17 @@
     "editor.defaultFormatter": "Dart-Code.dart-code"
   },
 
+  "files.associations": {
+    ".metadata": "yaml",
+    "pubspec.lock": "yaml"
+  },
+
   // Code spell checker (requires recommended extensions).
   "cSpell.ignorePaths": [
     ".git",
     ".dart_tool",
     "target",
+    ".metadata",
     "pubspec.lock",
     "Cargo.lock"
   ],
