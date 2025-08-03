@@ -37,7 +37,8 @@
     "target",
     ".metadata",
     "pubspec.lock",
-    "Cargo.lock"
+    "Cargo.lock",
+    "LICENSE"
   ],
   "cSpell.words": [
     "combinators",
