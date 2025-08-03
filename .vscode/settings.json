@@ -19,11 +19,17 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
 
+  "files.associations": {
+    ".metadata": "yaml",
+    "pubspec.lock": "yaml"
+  },
+
   // Code spell checker (requires recommended extensions).
   "cSpell.ignorePaths": [
     ".git",
     ".dart_tool",
     "target",
+    ".metadata",
     "pubspec.lock",
     "Cargo.lock"
   ],
@@ -36,8 +42,11 @@
     "ints",
     "nonobvious",
     "pubspec",
+    "swiftpm",
+    "symbolication",
     "tamasfe",
     "tearoffs",
-    "unawaited"
+    "unawaited",
+    "worktrace"
   ]
 }

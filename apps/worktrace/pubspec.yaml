@@ -1,0 +1,20 @@
+name: worktrace
+description: >-
+  The next-generation development system of version control,
+  task management, and network collaboration.
+publish_to: none
+resolution: workspace
+version: 0.0.0+0
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=3.32.6"
+
+dependencies:
+  flutter: { sdk: flutter }
+
+dev_dependencies:
+  flutter_test: { sdk: flutter }
+
+flutter:
+  uses-material-design: false
