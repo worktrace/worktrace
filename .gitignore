@@ -6,5 +6,8 @@
 *.ipr
 *.iws
 
+# Cargo.
+target/
+
 # Flutter.
 .dart_tool/

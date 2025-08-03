@@ -2,12 +2,6 @@
 # see: https://prettier.io/docs/configuration
 semi: false
 
-# Toml plugin might incompatible with VSCode extension,
-# so that it's not installed inside node.
-# see: https://github.com/un-ts/prettier/tree/master/packages/toml#notice
-plugins:
-  - prettier-plugin-sh
-
 # Special rules.
 # see: https://prettier.io/docs/configuration#configuration-overrides
 # see: https://prettier.io/docs/option-philosophy

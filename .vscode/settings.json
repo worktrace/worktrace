@@ -12,5 +12,32 @@
   "[shellscript]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
   "[properties]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
   "[ignore]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
-  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" }
+  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" },
+  "[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" },
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+
+  // Code spell checker (requires recommended extensions).
+  "cSpell.ignorePaths": [
+    ".git",
+    ".dart_tool",
+    "target",
+    "pubspec.lock",
+    "Cargo.lock"
+  ],
+  "cSpell.words": [
+    "combinators",
+    "esbenp",
+    "foxundermoon",
+    "futureor",
+    "interps",
+    "ints",
+    "nonobvious",
+    "pubspec",
+    "tamasfe",
+    "tearoffs",
+    "unawaited"
+  ]
 }

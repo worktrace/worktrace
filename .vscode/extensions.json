@@ -1,14 +1,17 @@
 {
   "recommendations": [
     // Languages and frameworks.
+    "rust-lang.rust-analyzer",
     "dart-code.dart-code",
     "dart-code.flutter",
 
     // Configurations.
+    "tamasfe.even-better-toml",
     "redhat.vscode-yaml",
 
     // Code qualities.
     "esbenp.prettier-vscode",
-    "foxundermoon.shell-format"
+    "foxundermoon.shell-format",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
