@@ -9,6 +9,7 @@
 
     // Code qualities.
     "esbenp.prettier-vscode",
-    "foxundermoon.shell-format"
+    "foxundermoon.shell-format",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
