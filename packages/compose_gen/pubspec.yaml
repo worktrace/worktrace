@@ -1,0 +1,12 @@
+name: compose_gen
+description: Generate multiple components into a single output code file.
+version: 0.0.0
+resolution: workspace
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  analyzer: ^7.7.1
+  build: ^3.0.0
+  meta: ^1.16.0
+  source_gen: ^3.0.0
