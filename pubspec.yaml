@@ -5,3 +5,4 @@ environment: { sdk: ^3.8.1 }
 
 workspace:
   - apps/worktrace
+  - packages/compose_gen
