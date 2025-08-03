@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = [ "apps/worktrace-cli","crates/worktrace", "crates/worktrace-build"]

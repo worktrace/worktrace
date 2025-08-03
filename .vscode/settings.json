@@ -12,8 +12,11 @@
   "[shellscript]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
   "[properties]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
   "[ignore]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
-  "[dart]": {
-    "editor.defaultFormatter": "Dart-Code.dart-code"
+  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" },
+  "[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" },
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
 
   "files.associations": {
@@ -40,7 +43,8 @@
     "nonobvious",
     "pubspec",
     "swiftpm",
-    "Symbolication",
+    "symbolication",
+    "tamasfe",
     "tearoffs",
     "unawaited",
     "worktrace"
