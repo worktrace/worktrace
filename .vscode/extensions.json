@@ -8,6 +8,7 @@
     "redhat.vscode-yaml",
 
     // Code qualities.
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format"
   ]
 }

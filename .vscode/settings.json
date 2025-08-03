@@ -9,5 +9,8 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": { "source.organizeImports": "always" },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[shellscript]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+  "[properties]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+  "[ignore]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
   "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" }
 }
