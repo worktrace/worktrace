@@ -20,7 +20,7 @@
     "*.js": "${capture}.d.ts",
     "*.ts": "${capture}.test.ts",
     "package.json": "pnpm-lock.yaml",
-    "readme.md": "license"
+    "readme.md": "license, claude.md, qwen.md"
   },
 
   // Output bundle visualizations.
@@ -32,5 +32,5 @@
 
   // Code spell checker (require recommended extensions).
   "cSpell.ignorePaths": ["node_modules", "out", "pnpm-lock.yaml"],
-  "cSpell.words": ["esbenp", "oxlint", "worktrace"]
+  "cSpell.words": ["esbenp", "esbuild", "oxlint", "qwen", "worktrace"]
 }

@@ -6,6 +6,12 @@ Desktop.ini
 *.ipr
 *.iws
 
+# Generated agent guidelines.
+.roo
+AGENTS.md
+CLAUDE.md
+QWEN.md
+
 # Node.
 node_modules
 out

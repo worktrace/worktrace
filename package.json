@@ -4,12 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "postinstall": "tsx ",
     "format": "prettier --write .",
-    "review": "prettier --check . && oxlint"
+    "review": "prettier --check . && oxlint",
+    "prepare-agents": "tsx scripts/prepare-agents.ts"
   },
   "devDependencies": {
+    "@types/node": "^24.8.1",
+    "chalk": "^5.6.2",
+    "consola": "^3.4.2",
+    "glob": "^11.0.3",
     "oxlint": "^1.23.0",
     "prettier": "^3.6.2",
-    "prettier-plugin-sh": "^0.18.0"
+    "prettier-plugin-sh": "^0.18.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   }
 }
